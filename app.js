@@ -1,6 +1,6 @@
-function calci(){
-    let a=document.getElementById('value1').value
-   let b= document.getElementById('value2').value
-   let result=parseInt(a)+parseInt(b);
-   document.getElementById('res').innerText=result
+function resize(){
+   let h= document.getElementById('a').value
+   let w= document.getElementById('b').value
+    document.getElementById('image').style.height=`${h}px`
+    document.getElementById('image').style.width=`${w}px`
 }
